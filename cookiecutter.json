@@ -1,4 +1,6 @@
 {
     "name": "Rob deCarvalho",
-    "email": "unlisted@unlisted.net"
+    "email": "unlisted@unlisted.net",
+    "package_name": "my_package_name",
+    "github_url": "my_github_url"
 }
