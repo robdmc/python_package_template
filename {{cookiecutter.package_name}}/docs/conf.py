@@ -48,7 +48,7 @@ master_doc = 'toc'
 
 # General information about the project.
 project = '{{cookiecutter.package_name}}'
-copyright = '{{cookiecutter.copyright_year}}, {{cookiecutter.year}}'
+copyright = '{{cookiecutter.copyright_year}}, {{cookiecutter.name}}'
 
 # The short X.Y version.
 version = get_version()
