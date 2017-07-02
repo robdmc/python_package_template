@@ -1,4 +1,4 @@
-.. _ref-behold:
+.. _ref-{{cookiecutter.package_name}}:
 
 
 API Documentation

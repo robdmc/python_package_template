@@ -5,4 +5,4 @@ Table of Contents
    :maxdepth: 3
 
    index
-   ref/behold
+   ref/{{cookiecutter.package_name}}
