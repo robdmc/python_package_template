@@ -8,4 +8,4 @@ pip install cookiecutter
 cookiecutter https://github.com/robdmc/python_package_template.git
 ```
 
-Say something about this readme.
+
