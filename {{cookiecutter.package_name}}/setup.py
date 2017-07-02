@@ -34,8 +34,7 @@ docs_require = [
 ]
 
 extras_require = {
-    'dev': tests_require,
-    'docs': docs_require,
+    'dev': tests_require + docs_require,
 }
 
 setup(
