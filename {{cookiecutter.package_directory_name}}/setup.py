@@ -9,7 +9,7 @@ def get_version():
     """
     Extracts the version number from the version.py file.
     """
-    VERSION_FILE = '{{cookiecutter.package_name}}/__init__.py'
+    VERSION_FILE = '{{cookiecutter.package_name}}/version.py'
     mo = re.search(r'^__version__ = [\'"]([^\'"]*)[\'"]', open(VERSION_FILE, 'rt').read(), re.M)
     if mo:
         return mo.group(1)
