@@ -21,16 +21,9 @@ install_requires = [
 ]
 
 tests_require = [
-    'coverage',
-    'flake8',
-    'mock',
-    'nose',
-    'wheel',
 ]
 
 docs_require = [
-    'Sphinx',
-    'sphinx_rtd_theme'
 ]
 
 extras_require = {
@@ -40,24 +33,21 @@ extras_require = {
 setup(
     name='{{cookiecutter.package_name}}',
     version=get_version(),
-    description='',
-    long_description=open('README.md').read(),
+    description='{{cookiecutter.description}}',
+    long_description='{{cookiecutter.description}}',
     url='{{cookiecutter.github_url}}',
     author='{{cookiecutter.name}}',
     author_email='{{cookiecutter.email}}',
     keywords='',
     packages=find_packages(),
     classifiers=[
-        'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.7',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
     ],
     license='MIT',
     include_package_data=True,
-    test_suite='nose.collector',
     install_requires=install_requires,
     tests_require=tests_require,
     extras_require=extras_require,

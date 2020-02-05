@@ -4,5 +4,6 @@
     "package_directory_name": "my_package_directory_name",
     "package_name": "my_package_name",
     "github_url": "my_github_url",
-    "copyright_year":"2017"
+    "description": "my project description"
+    "copyright_year":"2020"
 }
